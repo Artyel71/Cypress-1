@@ -8,7 +8,7 @@
     "cy:run:head:firefox": "cypress run --headed --browser edge",
     "cy:run:chrome": "cypress run --headless --browser chrome",
     "cy:run:firefox": "cypress run --headless --browser edge",
-    "cy:run":"cypress run --config-file cypress2.config.js"
+    "cy:run:head:chrome": "cypress run --headed --browser chrome --config-file cypress2.config.js"
   },
   "author": "",
   "license": "ISC",
